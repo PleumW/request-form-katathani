@@ -1,0 +1,400 @@
+{
+    "email_dept_head": "fb.depthead@katathani.com",
+    "email_hotel_manager": "gm.hotel@katathani.com",
+    "email_hr_staff": "hr.recruitment@katathani.com",
+    "email_it_manager": "it.director@katathani.com",
+    "email_it_staff": "servicedesk@katathani.com",
+    "form_matrix_custom": {
+        "left_column": {
+            "hotel_network": {
+                "title": "Hotel Network",
+                "icon": "fa-solid fa-network-wired",
+                "type": "mixed",
+                "items": [
+                    {
+                        "id": "win_login",
+                        "label": "Windows User Login",
+                        "type": "checkbox"
+                    },
+                    {
+                        "id": "usb_allow",
+                        "label": "USB Allow",
+                        "type": "checkbox"
+                    },
+                    {
+                        "id": "file_server",
+                        "label": "File Server",
+                        "type": "checkbox",
+                        "sublabel": "Network Drive"
+                    },
+                    {
+                        "id": "net_allow_all",
+                        "label": "Internet allow all website",
+                        "type": "checkbox"
+                    },
+                    {
+                        "id": "net_block_some",
+                        "label": "Internet block some website",
+                        "type": "checkbox"
+                    },
+                    {
+                        "id": "email",
+                        "label": "E-Mail",
+                        "type": "checkbox"
+                    }
+                ]
+            },
+            "katathani_app": {
+                "title": "Katathani Application & Tool",
+                "icon": "fa-solid fa-shapes",
+                "type": "checkboxes",
+                "items": [
+                    {
+                        "id": "agent_systems",
+                        "label": "Agent Systems",
+                        "type": "checkbox"
+                    },
+                    {
+                        "id": "member_systems",
+                        "label": "Member Systems",
+                        "type": "checkbox"
+                    },
+                    {
+                        "id": "customer_systems",
+                        "label": "Customer Systems",
+                        "type": "checkbox"
+                    }
+                ]
+            },
+            "opera_pms": {
+                "title": "Opera - Property Management System",
+                "icon": "fa-solid fa-hotel",
+                "type": "opera",
+                "properties": [
+                    "Katathani",
+                    "The Sands",
+                    "Riverie"
+                ],
+                "items": [
+                    {
+                        "id": "engineer",
+                        "label": "Engineer",
+                        "type": "checkbox"
+                    },
+                    {
+                        "id": "sales_catering",
+                        "label": "Sales & Catering",
+                        "type": "checkbox"
+                    },
+                    {
+                        "id": "enquiry_executive",
+                        "label": "Enquiry Only (Executive)",
+                        "type": "checkbox"
+                    },
+                    {
+                        "id": "housekeeping",
+                        "label": "Housekeeping",
+                        "type": "checkbox"
+                    },
+                    {
+                        "id": "guest_service_agents",
+                        "label": "Guest Service Agents",
+                        "type": "checkbox"
+                    },
+                    {
+                        "id": "assistant_managers",
+                        "label": "Assistant Managers",
+                        "type": "checkbox"
+                    },
+                    {
+                        "id": "front_office_manager",
+                        "label": "Front Office Manager",
+                        "type": "checkbox"
+                    },
+                    {
+                        "id": "reservation_manager",
+                        "label": "Reservation Manager",
+                        "type": "checkbox"
+                    },
+                    {
+                        "id": "night_audit_manager",
+                        "label": "Night Audit \/ Night Manager",
+                        "type": "checkbox"
+                    },
+                    {
+                        "id": "accounting",
+                        "label": "Accounting",
+                        "type": "checkbox"
+                    },
+                    {
+                        "id": "operator",
+                        "label": "Operator",
+                        "type": "checkbox"
+                    },
+                    {
+                        "id": "vision_opera",
+                        "label": "Vision Opera",
+                        "type": "checkbox"
+                    }
+                ]
+            },
+            "check_scm": {
+                "title": "Check SCM - Inventory\/Purchasing",
+                "icon": "fa-solid fa-boxes-stacked",
+                "type": "checkboxes",
+                "items": [
+                    {
+                        "id": "enquiry_only",
+                        "label": "Enquiry Only",
+                        "type": "checkbox"
+                    },
+                    {
+                        "id": "purchasing",
+                        "label": "Purchasing",
+                        "type": "checkbox"
+                    },
+                    {
+                        "id": "receiving",
+                        "label": "Receiving",
+                        "type": "checkbox"
+                    },
+                    {
+                        "id": "stores",
+                        "label": "Stores",
+                        "type": "checkbox"
+                    },
+                    {
+                        "id": "cost_supervisor",
+                        "label": "Cost Supervisor",
+                        "type": "checkbox"
+                    }
+                ]
+            },
+            "emo": {
+                "title": "EMO - Engineer Maintenance Order",
+                "icon": "fa-solid fa-screwdriver-wrench",
+                "type": "checkboxes",
+                "items": [
+                    {
+                        "id": "order_request",
+                        "label": "Order Request",
+                        "type": "checkbox"
+                    },
+                    {
+                        "id": "order_manage",
+                        "label": "Order Manage",
+                        "type": "checkbox"
+                    }
+                ]
+            },
+            "vpn": {
+                "title": "VPN - FortiClient Remote Access",
+                "icon": "fa-solid fa-lock",
+                "type": "checkboxes",
+                "items": [
+                    {
+                        "id": "outside_remote",
+                        "label": "Request Outside Remote Access",
+                        "type": "checkbox"
+                    }
+                ]
+            }
+        },
+        "right_column": {
+            "adell": {
+                "title": "ADELL - Key Card System",
+                "icon": "fa-solid fa-id-card",
+                "type": "checkboxes",
+                "items": [
+                    {
+                        "id": "key_card_mgmt",
+                        "label": "Key Card User Management Login",
+                        "type": "checkbox"
+                    }
+                ]
+            },
+            "micros": {
+                "title": "Micros - Point of Sales System",
+                "icon": "fa-solid fa-cash-register",
+                "type": "checkboxes",
+                "items": [
+                    {
+                        "id": "waiters_order_taker",
+                        "label": "Waiters\/Waitress\/Order Taker",
+                        "type": "checkbox"
+                    },
+                    {
+                        "id": "cashier_captain",
+                        "label": "Cashier\/Captain",
+                        "type": "checkbox"
+                    },
+                    {
+                        "id": "night_audit",
+                        "label": "Night Audit",
+                        "type": "checkbox"
+                    }
+                ]
+            },
+            "eagle": {
+                "title": "Eagle - HRMS & Payroll System",
+                "icon": "fa-solid fa-users-gear",
+                "type": "checkboxes",
+                "items": [
+                    {
+                        "id": "time_attendance",
+                        "label": "Time Attendance",
+                        "type": "checkbox"
+                    },
+                    {
+                        "id": "personnel_office",
+                        "label": "Personnel Office",
+                        "type": "checkbox"
+                    },
+                    {
+                        "id": "personnel_manager",
+                        "label": "Personnel Manager",
+                        "type": "checkbox"
+                    },
+                    {
+                        "id": "paymaster",
+                        "label": "Paymaster",
+                        "type": "checkbox"
+                    }
+                ]
+            },
+            "sun": {
+                "title": "Sun - Financial System",
+                "icon": "fa-solid fa-chart-line",
+                "type": "checkboxes",
+                "items": [
+                    {
+                        "id": "account_payable",
+                        "label": "Account Payable",
+                        "type": "checkbox"
+                    },
+                    {
+                        "id": "account_receivable",
+                        "label": "Account Receivable",
+                        "type": "checkbox"
+                    },
+                    {
+                        "id": "asset_supervisor",
+                        "label": "Asset Supervisor",
+                        "type": "checkbox"
+                    },
+                    {
+                        "id": "cost_controller",
+                        "label": "Cost Controller",
+                        "type": "checkbox"
+                    },
+                    {
+                        "id": "general_cashier",
+                        "label": "General Cashier",
+                        "type": "checkbox"
+                    },
+                    {
+                        "id": "income_auditor",
+                        "label": "Income Auditor",
+                        "type": "checkbox"
+                    },
+                    {
+                        "id": "chief_accountant",
+                        "label": "Chief Accountant \/ Assistant Chief Accountant",
+                        "type": "checkbox"
+                    },
+                    {
+                        "id": "financial_controller",
+                        "label": "Chief Financial Controller \/ Financial Controller",
+                        "type": "checkbox"
+                    },
+                    {
+                        "id": "vision_sun",
+                        "label": "Vision Sun",
+                        "type": "checkbox"
+                    },
+                    {
+                        "id": "sun_remote",
+                        "label": "Sun Remote",
+                        "type": "checkbox"
+                    }
+                ]
+            },
+            "antlap": {
+                "title": "Antlap - Internet Gateway",
+                "icon": "fa-solid fa-globe",
+                "type": "checkboxes",
+                "items": [
+                    {
+                        "id": "view_user",
+                        "label": "View User",
+                        "type": "checkbox"
+                    }
+                ]
+            },
+            "well_fixed_asset": {
+                "title": "Well Fixed asset - Asset System",
+                "icon": "fa-solid fa-cubes",
+                "type": "checkboxes",
+                "items": [
+                    {
+                        "id": "asset_supervisor",
+                        "label": "Asset Supervisor",
+                        "type": "checkbox"
+                    }
+                ]
+            },
+            "bs_minimart": {
+                "title": "BS Minimart - POS minimart",
+                "icon": "fa-solid fa-store",
+                "type": "checkboxes",
+                "items": [
+                    {
+                        "id": "cashier",
+                        "label": "Cashier",
+                        "type": "checkbox"
+                    },
+                    {
+                        "id": "back_office",
+                        "label": "Back office",
+                        "type": "checkbox"
+                    }
+                ]
+            },
+            "fcs": {
+                "title": "FCS - Telephone Billing System",
+                "icon": "fa-solid fa-phone",
+                "type": "checkboxes",
+                "items": [
+                    {
+                        "id": "user_view",
+                        "label": "User view",
+                        "type": "checkbox"
+                    }
+                ]
+            },
+            "cctv": {
+                "title": "CCTV",
+                "icon": "fa-solid fa-video",
+                "type": "mixed",
+                "items": [
+                    {
+                        "id": "user_monitoring",
+                        "label": "User Monitoring Systems",
+                        "type": "text_input",
+                        "placeholder": "ระบุโซน \/ หมายเลขกล้อง หรือ แผนกที่ต้องการ"
+                    }
+                ]
+            }
+        }
+    },
+    "smtp_enabled": "0",
+    "smtp_from_email": "noreply@katathani.com",
+    "smtp_from_name": "IT Access Request System",
+    "smtp_host": "smtp.gmail.com",
+    "smtp_pass": "",
+    "smtp_port": "587",
+    "smtp_secure": "tls",
+    "smtp_user": "",
+    "manager_role_99999": "head",
+    "manager_role_88888": "head"
+}

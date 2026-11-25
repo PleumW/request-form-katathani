@@ -1,0 +1,22 @@
+# Protect sensitive files
+<FilesMatch "^(database\.sql|db_config\.php|\.env.*|\.git.*)$">
+    <IfModule mod_authz_core.c>
+        Require all denied
+    </IfModule>
+    <IfModule !mod_authz_core.c>
+        Order allow,deny
+        Deny from all
+    </IfModule>
+</FilesMatch>
+
+# Protect logs directory from public access
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^logs/ - [F,L]
+</IfModule>
+
+# Disable Directory Browsing
+Options -Indexes
+
+# Set default charset
+AddDefaultCharset UTF-8
